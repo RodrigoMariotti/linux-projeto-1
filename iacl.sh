@@ -33,10 +33,10 @@ chown root:GRP_ADM /adm
 chown root:GRP_VEN /ven
 chown root:GRP_SEC /sec
 
-chown 770 /adm
-chown 770 /ven
-chown 770 /sec
-chown 777 /publico
+chmod 770 /adm
+chmod 770 /ven
+chmod 770 /sec
+chmod 777 /publico
  
 echo "Fim......"
 
